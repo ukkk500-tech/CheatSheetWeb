@@ -1,0 +1,80 @@
+.workout-bg {
+    background-color: #121212;
+    min-height: 100vh;
+}
+
+/* Card Styling */
+.workout-card {
+    background: #1e1e1e;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border: 1px solid #333;
+}
+
+.workout-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-wrapper {
+    position: relative;
+    height: 180px;
+}
+
+.card-img-top {
+    height: 100%;
+    object-fit: cover;
+}
+
+.plan-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #ffc107;
+    color: #000;
+    padding: 3px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+/* Accordion Styling */
+.accordion-button:not(.collapsed) {
+    background-color: #252525;
+    color: #ffc107;
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    filter: invert(1); /* Arrows ကို အဖြူရောင်ပြောင်းရန် */
+}
+
+.exercise-row:last-child {
+    border-bottom: none;
+}
+
+.exercise-row {
+    background: #252525;
+    transition: background 0.2s;
+}
+
+.exercise-row:hover {
+    background: #2d2d2d;
+}
+.category-actions {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 15;
+    opacity: 0; /* ပုံမှန်ဆိုရင် ဖျောက်ထားမယ် */
+    transition: opacity 0.3s;
+}
+
+.category-card:hover .category-actions {
+    opacity: 1; /* Mouse တင်မှ ပြမယ် */
+}
+
+.shadow-text {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
