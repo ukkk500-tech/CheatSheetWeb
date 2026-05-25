@@ -120,7 +120,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <i class="fas fa-dumbbell me-2"></i>GYMSHEETS
+                    <i class="fas fa-dumbbell me-2"></i>gg
                 </a>
                 <div class="navbar-nav ms-auto align-items-center d-none d-md-flex">
                     <span class="nav-link text-white opacity-75">
